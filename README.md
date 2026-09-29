@@ -1,20 +1,26 @@
-☕ Starbucks Analysis Dashboard
+# ☕ Starbucks Analysis Dashboard
+
 A two-part analytics project for Store #101 (Seattle Flagship) that turns raw order data into real-time, actionable insight — a live web-based Sales Manager app backed by PostgreSQL, and a companion Power BI report for deeper, offline-style analysis.
 
-PostgreSQL Power BI Status License
 
-📖 Overview
+# 📖 Overview
 This project simulates a Starbucks store-operations dashboard, combining:
 
-Starbucks Sales Manager (Web App) — a live order-management console with real-time PostgreSQL-backed metrics: total sales, order volume, average order value, and top-selling item, plus a searchable/filterable transactions table.
-Power BI Report — a polished "Daily Sales Performance" report with hourly breakdowns of average spend, revenue, and units sold, alongside order/customer/quantity KPIs.
+**Starbucks Sales Manager (Web App)** — a live order-management console with real-time PostgreSQL-backed metrics: total sales, order volume, average order value, and top-selling item, plus a searchable/filterable transactions table.
+
+**Power BI Report** — a polished "Daily Sales Performance" report with hourly breakdowns of average spend, revenue, and units sold, alongside order/customer/quantity KPIs.
+
 Together they cover the full loop: raw transactional data → operational dashboard → executive reporting.
 
-🖼️ Preview
-Web App — Orders Management
+
+# 🖼️ Preview
+
+**Starbucks_Sales_dashboard**
+
 Real-time order tracking with search, filters (payment mode, customer type, date), and a live transactions table pulled straight from PostgreSQL.
 
-Orders Management
+<img width="1907" height="979" alt="image" src="https://github.com/user-attachments/assets/742fa8ec-0a8f-458d-8ffc-72d8953c5078" />
+
 
 Power BI — Daily Sales Performance
 Hourly sales insights: average spend per order, revenue, and units sold, with order/customer/amount/quantity summary rings.
