@@ -41,70 +41,114 @@ Hourly sales insights: average spend per order, revenue, and units sold, with or
 
 # ✨ Key Features
 
-Web App
+**Web App**
 
 Live KPI cards — Total Sales, Total Orders, Avg Order Value, Top Item
+
 Orders Transactions Table with search by Transaction ID / Customer / Item
+
 Filters for Payment Mode, Customer Type, and Date
+
 One-click "Create Order" / "New Order" flow
+
 Real-time PostgreSQL aggregation, scoped per store (e.g. Store #101)
-Power BI Report
+
+**Power BI Report**
 
 Order Count, Customer Count, Total Amount, Total Quantity summary
+
 Average Spend per Order by Hour
+
 Revenue by Hour
+
 Units Sold by Hour
+
 Auto-labeled "Last Updated" timestamp for freshness tracking
-🛠️ Tech Stack
+
+# 🛠️ Tech Stack
+
 Layer	Technology
+
 Frontend	React / Next.js (Starbucks web app)
+
 Backend / DB	PostgreSQL
+
 Reporting	Power BI (.pbix)
+
 Data	CSV extracts (customers, items, sales)
+
 Queries	Raw SQL (SQL Queries.txt)
-📂 Project Structure
-Starbucks Analysis Dashboard/
+
+# 📂 Project Structure
+**Starbucks Analysis Dashboard/**
+
 ├── Starbucks web app/        # Web application source (React/Next.js + PostgreSQL)
+
 ├── img/                      # App/report assets (logos, icons, etc.)
+
 ├── Dashboard imgs/           # README/preview screenshots
+
 ├── SQL Queries.txt           # SQL used to build/aggregate the dataset
+
 ├── Starbucks Dashboard.pbix  # Power BI report file
+
 ├── customers.csv             # Customer records
+
 ├── items.csv                 # Menu item catalog
+
 ├── sales.csv                 # Transaction / order-level sales data
+
 └── README.md
-🚀 Getting Started
-1. Power BI Report
+
+# 🚀 Getting Started
+**1. Power BI Report**
+
 Install Power BI Desktop.
+
 Open Starbucks Dashboard.pbix.
+
 If prompted, point the data source connections at your local copies of customers.csv, items.csv, and sales.csv (or your PostgreSQL instance).
 Refresh the report to load the latest data.
-2. Web App
-# from the "Starbucks web app" directory
+**2. Web App**
+
+**from the "Starbucks web app" directory**
 npm install
 
-# configure your PostgreSQL connection
+**configure your PostgreSQL connection**
 cp .env.example .env
-# edit .env with your DB host, user, password, and database name
+**edit .env with your DB host, user, password, and database name**
 
 npm run dev
 The app runs at http://localhost:3000 by default.
 
-3. Loading the Data
+**3. Loading the Data**
+
 Use SQL Queries.txt as a reference for the schema and aggregation queries, and import customers.csv, items.csv, and sales.csv into your PostgreSQL database to seed the app.
 
-📊 Data Files
+# 📊 Data Files
+
 File	Description
+
 customers.csv	Customer ID, name, and customer-type metadata
+
 items.csv	Menu items, categories, and pricing
+
 sales.csv	Transaction-level order data (qty, price, payment mode, timestamp)
-🗺️ Roadmap
+
+# 🗺️ Roadmap
+ 
  Multi-store support beyond Store #101
+ 
  Automated Power BI refresh from live PostgreSQL data
+ 
  Order-level drill-down analytics in the web app
+ 
  Authentication & role-based access for store managers
-🤝 Contributing
+
+# 🤝 Contributing
+
 Issues and pull requests are welcome — please open an issue first to discuss significant changes.
 
-📄 License
+# 📄 License
+
 This project is licensed under the MIT License.
