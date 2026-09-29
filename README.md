@@ -22,10 +22,12 @@ Real-time order tracking with search, filters (payment mode, customer type, date
 <img width="1907" height="979" alt="image" src="https://github.com/user-attachments/assets/742fa8ec-0a8f-458d-8ffc-72d8953c5078" />
 
 
-Power BI — Daily Sales Performance
+**Power BI — Daily Sales Performance**
+
 Hourly sales insights: average spend per order, revenue, and units sold, with order/customer/amount/quantity summary rings.
 
-Daily Sales Performance
+<img width="1906" height="975" alt="image" src="https://github.com/user-attachments/assets/394ab32e-3f07-45a8-a0b3-cd2afd566d6b" />
+
 
 Dashboard Detail View
 Dashboard Detail
