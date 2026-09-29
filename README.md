@@ -29,8 +29,10 @@ Hourly sales insights: average spend per order, revenue, and units sold, with or
 <img width="1906" height="975" alt="image" src="https://github.com/user-attachments/assets/394ab32e-3f07-45a8-a0b3-cd2afd566d6b" />
 
 
-Dashboard Detail View
-Dashboard Detail
+**Dashboard Detail View**
+
+<img width="1905" height="974" alt="image" src="https://github.com/user-attachments/assets/0ce59a4c-c1d6-47d3-bc5d-c13e2958ab62" />
+
 
 Repository / Data View
 Repository View
